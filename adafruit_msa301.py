@@ -38,7 +38,7 @@ from adafruit_register.i2c_bit import RWBit
 from adafruit_register.i2c_bits import RWBits
 import adafruit_bus_device.i2c_device as i2cdevice
 
-_MSA301_I2CADDR_DEFAULT = const(0x26)
+_MSA301_I2CADDR_DEFAULT = const(0x62)
 
 _MSA301_REG_PARTID = const(0x01)
 _MSA301_REG_OUT_X_L = const(0x02)
